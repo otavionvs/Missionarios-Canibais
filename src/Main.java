@@ -22,6 +22,7 @@ public class Main {
 
     public static void jogar(Rio rio, Barco barco) throws Exception {
         System.out.println(rio.mostrar() +"\n" + barco.mostrar() +"\n------------------------------\n1 - Embarcar" +
+		"\n --------------" +
                 "\n2 - Desembarcar" +
                 "\n3 - Atravessar");
         int acao = sc.nextInt();
